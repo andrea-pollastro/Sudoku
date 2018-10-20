@@ -11,7 +11,7 @@ To solve a Sudoku, my algorithm uses mainly two data structures:
 
 I really got ispired by <i>Search</i> strategy proposed by Norvig, for this reason my search starts from the cell with the fewer number of choices, decreasing in this way the failure's probability. Then, the algorithm starts assigning one of these values to the chosen cell and the search goes on. If no one of these values leads to a solution (in the other hand, if all of these values leads to contradictions), the algorithm uses backtracking to come to the last valid state of the grid.<br>
 The assignment comes giving one value to a cell and applying the main rule of the Sudoku game that is every value must appear once in any column, rows and box.<br>
-Is thanks to this constraint that the propagation is made: once a value is assigned to a cell, it is removed from the choices of all the cell's peers. If one of them remains without choices, we've reached a contradiction, so we come back to the last valid state of the grid. Otherwise, if one of them instead remains with only one choice, that value is assigned to that peer.<br>
+Thanks to this constraint, propagation is made: once a value is assigned to a cell, it is removed from the choices of all the cell's peers. If one of them remains without choices, we've reached a contradiction, so we come back to the last valid state of the grid. Otherwise, if one of them instead remains with only one choice, that value is assigned to that peer.<br>
 In this way, only one assignment can lead us quickly to a contradiction or to a solution.
 
 # Sudoku generator
