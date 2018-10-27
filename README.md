@@ -38,24 +38,24 @@ I obtained these results (expressed in seconds):
   </tr>
   <tr>
     <td>Easy</td>
-    <td>0.00096</td>
+    <td>0.00094</td>
     <td>0.00004</td>
     <td>0.00007</td>
-    <td>0.00012</td>
+    <td>0.00011</td>
   </tr>
   <tr>
     <td>Medium</td>
-    <td>0.00296</td>
+    <td>0.00279</td>
     <td>0.00004</td>
-    <td>0.00053</td>
-    <td>0.00059</td>
+    <td>0.00051</td>
+    <td>0.00056</td>
   </tr>
   <tr>
     <td>Hard</td>
-    <td>0.07651</td>
+    <td>0.07276</td>
     <td>0.00004</td>
-    <td>0.00743</td>
-    <td>0.01249</td>
+    <td>0.00711</td>
+    <td>0.01190</td>
   </tr>
 </table>
 I also tested these <a href="http://norvig.com/top95.txt">95 hard puzzles</a> and these <a href="http://norvig.com/hardest.txt">eleven puzzles</a> tested by Norvig and I obtained these results:
@@ -69,17 +69,17 @@ I also tested these <a href="http://norvig.com/top95.txt">95 hard puzzles</a> an
   </tr>
   <tr>
     <td>95 hard puzzles</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2.92104</td>
+    <td>0.00082</td>
+    <td>0.22289</td>
+    <td>0.48517</td>
   </tr>
   <tr>
     <td>Eleven puzzles</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>0.05647</td>
+    <td>0.00050</td>
+    <td>0.00914</td>
+    <td>0.01579</td>
   </tr>
 </table>
 All the test were made on an Intel Core i3-2350M CPU @ 2.30 GHz
