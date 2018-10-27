@@ -1,7 +1,7 @@
 # Sudoku solver and Sudoku generator
 Author: Andrea Pollastro
 
-In the last two years I got passionate about Sudoku game, so I decided to write a Sudoku solver and a Sudoku generator that creates sudoku with unique solution (with the difficulty easy, medium, hard).
+In the last two years I got passionate about Sudoku game, so I decided to write a Sudoku solver and a Sudoku generator that creates sudoku with unique solution (with the difficulties easy, medium, hard).
 
 # Sudoku solver
 Solving a Sudoku is known to be a NP-complete problem, for this reason to solve a Sudoku I realized a <i>backpropagation algorithm</i> (needed to find all the possible configuration of the grid) speeded by the <i>constraint propagation</i> technique.
