@@ -58,6 +58,7 @@ I obtained these results (expressed in seconds):
     <td>0.01190</td>
   </tr>
 </table>
+
 I also tested these <a href="http://norvig.com/top95.txt">95 hard puzzles</a> and these <a href="http://norvig.com/hardest.txt">eleven puzzles</a> tested by Norvig and I obtained these results:
 <table>
   <tr>
