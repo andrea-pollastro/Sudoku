@@ -83,4 +83,5 @@ I also tested these <a href="http://norvig.com/top95.txt">95 hard puzzles</a> an
     <td>0.01579</td>
   </tr>
 </table>
+
 All the test were made on an Intel Core i3-2350M CPU @ 2.30 GHz
