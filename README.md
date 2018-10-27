@@ -1,7 +1,7 @@
 # Sudoku solver and Sudoku generator
 Author: Andrea Pollastro
 
-In the last two years I got passionate about Sudoku game, so I decided to write a Sudoku solver and a Sudoku generator that creates sudoku with unique solution (with the difficulty easy, medium, hard and expert).
+In the last two years I got passionate about Sudoku game, so I decided to write a Sudoku solver and a Sudoku generator that creates sudoku with unique solution (with the difficulty easy, medium, hard).
 
 # Sudoku solver
 Solving a Sudoku is known to be a NP-complete problem, for this reason to solve a Sudoku I realized a <i>backpropagation algorithm</i> (needed to find all the possible configuration of the grid) accelerated by the <i>constraint propagation</i> technique.
@@ -23,4 +23,4 @@ The basic idea to generate a Sudoku consists to randomly assign values to cell f
 Where <i>r, c, b</i> are the number of rows, cols and boxes of the grid.<br>
 The idea consists in insert the value assigned to a cell into the row/col/box respective to the cell (this comes in constant time because lists permit positional access in constant time and insert into sets comes in constant time too because python's sets use hashing).<br>
 In this way, the number of available elements per cell is equal to the number of missing element into the union of the respective row/col/box. If this number is equal to zero, we've reached a contradiction, so we come back to the last valid state of the grid (restoring the three sets row/col/box).<br>
-Once we got the complete grid, we need to make blank some cell to make the grid "playable". The number of cells varies according to the difficulty. It is really important to preserve the uniqueness of the grid's solution. For this reason, for any new blank the number of solution is counted. If the number of solution is greater then 1, the last blank is restored and another one is choosen. This process is iterated until the number of blanks is equal to the ones requested by the difficulty.
+Once we got the complete grid, we need to make blank some cell to make the grid "playable". The number of cells varies according to the difficulty. It is really important to preserve the uniqueness of the grid's solution and, for this reason, for any new blank the number of solution is counted. If the number of solution is greater then 1, the last blank is restored and another one is choosen. This process is iterated until the number of blanks is equal to the ones requested by the difficulty.
