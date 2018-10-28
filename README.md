@@ -59,7 +59,7 @@ I obtained these results (expressed in seconds):
   </tr>
 </table>
 
-I also tested these <a href="http://norvig.com/top95.txt">95 hard puzzles</a> and these <a href="http://norvig.com/hardest.txt">eleven puzzles</a> tested by Norvig and I obtained these results:
+Then I tested these <a href="http://norvig.com/top95.txt">95 hard puzzles</a> and these <a href="http://norvig.com/hardest.txt">eleven puzzles</a> tested by Norvig and I obtained these results:
 <table>
   <tr>
     <td><b>Name test</b></td>
