@@ -4,7 +4,7 @@ Author: Andrea Pollastro
 In the last two years I got passionate about Sudoku game, so I decided to write a Sudoku solver and a Sudoku generator that creates sudoku with unique solution (with the difficulties easy, medium, hard).
 
 # Sudoku solver
-Solving a Sudoku is known to be a NP-complete problem, for this reason to solve a Sudoku I realized a <i>backpropagation algorithm</i> speeded by the <i>constraint propagation</i> technique.
+Solving a Sudoku is known to be a NP-complete problem, for this reason to solve a Sudoku I realized an algorithm based on <i>backpropagation</i> speeded by the <i>constraint propagation</i> technique.
 To solve a Sudoku, my algorithm uses mainly two data structures:
 - <i>peers</i>: a dictionary that contains the indexes of all the cells contained into the row, col and box per cell
 - <i>validValues</i>: a dictionary that contains all the possible values assignable per cell
