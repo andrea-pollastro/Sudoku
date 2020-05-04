@@ -2,7 +2,7 @@
 Author: Andrea Pollastro
 
 In the last two years I got passionate about the Sudoku puzzle, so I decided to write a Sudoku Solver and a Sudoku Generator that creates Sudoku with a unique solution (with the difficulties easy, medium, hard).<br>
-Solving a Sudoku is known to be a NP-complete problem, I realized an algorithm based on <i>backpropagation</i> speeded by the <i>constraint propagation</i> technique and the <i>Search</i> strategy proposed by <a href="https://norvig.com/sudoku.html">Peter Norvig</a>.<br>
+Since solving a Sudoku is known to be a NP-complete problem, I realized an algorithm based on <i>backpropagation</i> speeded by the <i>constraint propagation</i> technique and the <i>Search</i> strategy proposed by <a href="https://norvig.com/sudoku.html">Peter Norvig</a>.<br>
 The generator I've implemented creates a solved Sudoku and then it adds <i>n</i> blank cells to make it "playable" (where <i>n</i> is related to the desired difficulty) while preserving the uniqueness of the grid's solution.
 
 # Solving benchmarks
