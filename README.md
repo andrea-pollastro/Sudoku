@@ -1,9 +1,9 @@
 # Sudoku Solver and Sudoku Generator
 Author: Andrea Pollastro
 
-In the last two years I got passionate about Sudoku game, so I decided to write a Sudoku Solver and a Sudoku Generator that creates sudoku with unique solution (with the difficulties easy, medium, hard).<br>
-Solving a Sudoku is known to be a NP-complete problem, for this reason to solve a Sudoku I realized an algorithm based on <i>backpropagation</i> speeded by the <i>constraint propagation</i> technique and the <i>Search</i> strategy proposed by <a href="https://norvig.com/sudoku.html">Peter Norvig</a>.<br>
-The generator I've implemented creates a solved Sudoku and then it adds <i>n</i> blank cells to make it "playable" (where <i>n</i> is related to the desired diffitulty) and preserving the uniqueness of the grid's solution.
+In the last two years I got passionate about the Sudoku puzzle, so I decided to write a Sudoku Solver and a Sudoku Generator that creates Sudoku with a unique solution (with the difficulties easy, medium, hard).<br>
+Solving a Sudoku is known to be a NP-complete problem, I realized an algorithm based on <i>backpropagation</i> speeded by the <i>constraint propagation</i> technique and the <i>Search</i> strategy proposed by <a href="https://norvig.com/sudoku.html">Peter Norvig</a>.<br>
+The generator I've implemented creates a solved Sudoku and then it adds <i>n</i> blank cells to make it "playable" (where <i>n</i> is related to the desired diffitulty) while preserving the uniqueness of the grid's solution.
 
 # Solving benchmarks
 I firstly tested the solver on 100 grids created by the generator for each difficulty <a href="https://github.com/andrea-pollastro/Sudoku/blob/master/sudokueasy.txt">easy</a>, <a href="https://github.com/andrea-pollastro/Sudoku/blob/master/sudokumedium.txt">medium</a> and <a href="https://github.com/andrea-pollastro/Sudoku/blob/master/sudokuhard.txt">hard</a> obtaining these results (in seconds):
